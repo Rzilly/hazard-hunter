@@ -1,0 +1,83 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: grey;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
