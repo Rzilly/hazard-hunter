@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi's Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rishi's Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link back to the main page -->
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of my exciting projects:</p>
+        <div class="gallery">
+            <div class="project-item">
+                <img src="project1-thumbnail.jpg" alt="Project 1" class="project-image" data-title="Project 1" data-description="This is a detailed description of Project 1." />
+            </div>
+            <div class="project-item">
+                <img src="project2-thumbnail.jpg" alt="Project 2" class="project-image" data-title="Project 2" data-description="This is a detailed description of Project 2." />
+            </div>
+            <div class="project-item">
+                <img src="project3-thumbnail.jpg" alt="Project 3" class="project-image" data-title="Project 3" data-description="This is a detailed description of Project 3." />
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rishi Saxena</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
