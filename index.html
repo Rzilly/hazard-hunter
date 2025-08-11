@@ -12,57 +12,43 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#fun">Fun</a></li>
-                <li><a href="#personal">Personal</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li> <!-- Links to separate project page -->
+                <li><a href="blog.html">Blog</a></li> <!-- Links to separate blog page -->
+                <li><a href="fun.html">Fun</a></li> <!-- Links to separate fun page -->
+                <li><a href="personal.html">Personal</a></li> <!-- Links to separate personal page -->
             </ul>
         </nav>
     </header>
 
+    <!-- Home Section -->
     <section id="home">
         <h2>Home</h2>
-        <p>This is the homepage of Rishi's personal website. Here, you'll find information about my background and projects.</p>
+        <p>Welcome to my website. Here, you'll find information about my work, blog posts, fun activities, and more.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of my exciting projects:</p>
-        <ul>
-            <li>Project 1: <a href="#">Project Link</a></li>
-            <li>Project 2: <a href="#">Project Link</a></li>
-            <li>Project 3: <a href="#">Project Link</a></li>
-        </ul>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>I am an Automotive Engineer with expertise in Functional Safety, Requirements Engineering, and Electrified Powertrain Systems. I'm passionate about developing safe and innovative automotive technologies.</p>
     </section>
 
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Check out my latest blog posts:</p>
-        <ul>
-            <li><a href="#">Blog Post 1</a></li>
-            <li><a href="#">Blog Post 2</a></li>
-            <li><a href="#">Blog Post 3</a></li>
-        </ul>
-    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <section id="fun">
-        <h2>Fun</h2>
-        <p>This section is all about fun stuff—projects, hobbies, and more!</p>
-        <ul>
-            <li><a href="#">Fun Project 1</a></li>
-            <li><a href="#">Fun Project 2</a></li>
-            <li><a href="#">Fun Activity 1</a></li>
-        </ul>
-    </section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <section id="personal">
-        <h2>Personal</h2>
-        <p>This is where I share a bit about myself:</p>
-        <ul>
-            <li><a href="#">My Background</a></li>
-            <li><a href="#">My Interests</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
